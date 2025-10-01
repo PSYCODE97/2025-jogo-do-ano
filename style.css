@@ -8,3 +8,9 @@
 --titulo: "Stalinist One", sans-serif;
 --texto: "Audiowide", sans-serif;
 }
+body{
+   background-color: var(--rich-black);
+   font-family: var(--titulo);
+   color: var(--yale-blue);
+
+}
