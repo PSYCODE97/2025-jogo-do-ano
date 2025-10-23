@@ -12,39 +12,32 @@ body{
    background-color: var(--rich-black);
    font-family: var(--titulo);
    color: var(--yale-blue);
-   margin: 0;
-   padding: 0;
+   margin: 0%;
+   padding: 0%;
    display: flex;
    align-items: center;
-   justify-content: center;
-
+  justify-content: center; 
 }
 main{
-margin-top: 10px;
-max-width: 70%;
-text-align: center;
+   margin-top: 20%;
+   max-width: 90%;
+   text-align: center;
+
 
 }
 button{
-   font-family: var(--titulo);
-   background-color: var(--mikado-yellow);
-   color: var(--oxford-blue);
-   border: 2px solid var(--mikado-yellow);
-   padding:  10px 0px;
+   font-family: var(--texto);
+   background-color: var(--rich-black);
+   color: var(--yale-blue);
+   border: 2px solid var(--yale-blue);
+   padding: 20px 30px;
+   margin: 10px 0;
    cursor: pointer;
-   border-radius: 50px;
-   font-size: 10px;
-
+   border-radius: 10px;
+   font-size: 20px;
 }
 button:hover{
     background-color: var(--rich-black);
     color: var(--mikado-yellow);
-    transition: 1s;
-}
-.passo{
-   font-size: 20px;
-   display: none;
-}
-.passo.ativo{
-    display: block;
+    transition: 0.5s;
 }
