@@ -11,7 +11,6 @@
 body{
    background-color: var(--rich-black);
    font-family: var(--titulo);
-   color: var(--yale-blue);
    margin: 0;
    padding: 0;
    display: flex;
@@ -20,31 +19,32 @@ body{
 
 }
 main{
-margin-top: 10px;
-max-width: 70%;
-text-align: center;
-
+    margin-top: 20px;
+    max-width: 90px;
+    text-align: center;
 }
 button{
-   font-family: var(--titulo);
-   background-color: var(--mikado-yellow);
-   color: var(--oxford-blue);
-   border: 2px solid var(--mikado-yellow);
-   padding:  10px 0px;
-   cursor: pointer;
-   border-radius: 50px;
-   font-size: 10px;
-
+    font-family: var(--titulo);
+    background-color: var(--yale-blue);
+    color: var(--mikado-yellow);
+    border: 2px solid var(--yale-blue);
+    padding: 30px 40px;
+    margin: 12px 0;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 25px;
 }
 button:hover{
-    background-color: var(--rich-black);
-    color: var(--mikado-yellow);
+    background-color: var(--mikado-yellow);
+    color: var(--yale-blue);
     transition: 1s;
 }
+
 .passo{
-   font-size: 20px;
-   display: none;
+    font-size: 30px;
+    display: none;
 }
+
 .passo.ativo{
     display: block;
 }
