@@ -37,7 +37,7 @@ button {
 button:hover {
     background-color: var(--laranja);
     color: var(--azul);
-    transition: 2s;
+    transition: 1s;
 }
 
 .passo {
