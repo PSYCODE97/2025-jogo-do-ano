@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Stalinist+One&display=swap');
+
+:root{
+    --rich-black: #000814ff;
+--oxford-blue: #001d3dff;
+--yale-blue: #003566ff;
+--mikado-yellow: #ffc300ff;
+--titulo: "Stalinist One", sans-serif;
+--texto: "Audiowide", sans-serif;
+}
+body{
+   background-color: var(--rich-black);
+   font-family: var(--titulo);
+   color: var(--yale-blue);
+   margin: 0%;
+   padding: 0%;
+   display: flex;
+   align-items: center;
+  justify-content: center; 
+}
+main{
+   margin-top: 20%;
+   max-width: 90%;
+   text-align: center;
+
+
+}
+button{
+   font-family: var(--texto);
+   background-color: var(--rich-black);
+   color: var(--yale-blue);
+   border: 2px solid var(--yale-blue);
+   padding: 20px 30px;
+   margin: 10px 0;
+   cursor: pointer;
+   border-radius: 10px;
+   font-size: 20px;
+}
+button:hover{
+    background-color: var(--rich-black);
+    color: var(--mikado-yellow);
+    transition: 0.5s;
+}

@@ -1,50 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Stalinist+One&display=swap');
 
-:root{
+:root {
     --rich-black: #000814ff;
---oxford-blue: #001d3dff;
---yale-blue: #003566ff;
---mikado-yellow: #ffc300ff;
---titulo: "Stalinist One", sans-serif;
---texto: "Audiowide", sans-serif;
+    --oxford-blue: #001d3dff;
+    --yale-blue: #003566ff;
+    --mikado-yellow: #ffc300ff;
+    --titulo: "Stalinist One", sans-serif;
+    --texto: "Audiowide", sans-serif;
 }
-body{
-   background-color: var(--rich-black);
-   font-family: var(--titulo);
-   margin: 0;
-   padding: 0;
-   display: flex;
-   align-items: center;
-   justify-content: center;
+
+body {
+    background-color: var(--rich-black);
+    font-family: var(--titulo);
+    color: var(--yale-blue);
 
 }
-main{
-    margin-top: 20px;
-    max-width: 90px;
+
+main {
+    margin-top: 30px;
+    max-width: 90%;
     text-align: center;
 }
-button{
+
+button {
     font-family: var(--titulo);
-    background-color: var(--yale-blue);
-    color: var(--mikado-yellow);
-    border: 2px solid var(--yale-blue);
-    padding: 30px 40px;
-    margin: 12px 0;
-    cursor: pointer;
-    border-radius: 20px;
-    font-size: 25px;
-}
-button:hover{
     background-color: var(--mikado-yellow);
-    color: var(--yale-blue);
-    transition: 1s;
+    color: var(--rich-black);
+    border: 2px solid var(--mikado-yellow);
+    padding: 20px 30px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 20px;
 }
 
-.passo{
-    font-size: 30px;
+button:hover {
+    background-color: var(--laranja);
+    color: var(--azul);
+    transition: 2s;
+}
+
+.passo {
+    font-size: 24px;
     display: none;
 }
 
-.passo.ativo{
+.passo.ativo {
     display: block;
 }
