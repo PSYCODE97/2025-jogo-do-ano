@@ -11,6 +11,40 @@
 body{
    background-color: var(--rich-black);
    font-family: var(--titulo);
-   color: var(--yale-blue);
+   margin: 0;
+   padding: 0;
+   display: flex;
+   align-items: center;
+   justify-content: center;
 
+}
+main{
+    margin-top: 20px;
+    max-width: 90px;
+    text-align: center;
+}
+button{
+    font-family: var(--titulo);
+    background-color: var(--yale-blue);
+    color: var(--mikado-yellow);
+    border: 2px solid var(--yale-blue);
+    padding: 30px 40px;
+    margin: 12px 0;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 25px;
+}
+button:hover{
+    background-color: var(--mikado-yellow);
+    color: var(--yale-blue);
+    transition: 1s;
+}
+
+.passo{
+    font-size: 30px;
+    display: none;
+}
+
+.passo.ativo{
+    display: block;
 }
