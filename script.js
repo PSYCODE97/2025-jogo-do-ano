@@ -28,5 +28,13 @@ avanca.forEach(button => {
         } else {
             document.getElementById('mensagem-final').style.display = 'none';
         }
+        if (proximo === 16) {
+            document.querySelectorAll(".passo").forEach(p => p.classList.remove("ativo"))
+            document.getElementById("passo-" + proximo).classList.add("ativo")
+        } else {
+             document.querySelectorAll(".passo").forEach(p => p.classList.remove("ativo"))
+             document.getElementById("mensagem-final").style.display = "block";
+
+        }
     });
 });
